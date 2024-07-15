@@ -1,0 +1,22 @@
+print_info() {
+
+    info title
+    prin "╭───────────────── SOFTWARE ─────────────────╮"
+    info "$(color 1)" distro
+    info "$(color 1)" model
+    info "$(color 1)" de
+    info "$(color 1)" packages
+    prin "╰────────────────────────────────────────────╯"
+    prin "╭───────────────── HARDWARE ─────────────────╮"
+    info "$(color 1)󰍛" cpu
+    info "$(color 1)" gpu
+    info "$(color 1)" memory
+    info "$(color 1)󰍹" resolution
+    prin "╰────────────────────────────────────────────╯"
+}
+separator=" "
+os_arch="off"
+distro_shorthand="off"
+ascii_distro="Manjaro"
+colors=(1 8 8 8 8 8 8 8 8 8 8 8 8 )
+ascii_colors=(1)
